@@ -8,8 +8,9 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
+using APItarea.Models;
 
-namespace APItarea.Models
+namespace APItarea.Controllers
 {
     public class ClientsController : ApiController
     {
