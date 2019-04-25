@@ -14,5 +14,7 @@ namespace MVCTarea.Models
         }
 
         public System.Data.Entity.DbSet<MVCTarea.Models.Client> Clients { get; set; }
+
+        public System.Data.Entity.DbSet<MVCTarea.Models.Product> Products { get; set; }
     }
 }
